@@ -17,13 +17,12 @@ import Loading from "../screens/utils/Loading";
 
 // Better put your these secret keys in .env file
 const firebaseConfig = {
-  apiKey: "",
-  authDomain: "",
-  databaseURL: "",
-  projectId: "",
-  storageBucket: "",
-  messagingSenderId: "",
-  appId: "",
+  apiKey: "AIzaSyAioZxxSSPfkSyAUyKuhXqT7w1XdBcDm70",
+  authDomain: "icard-8deae.firebaseapp.com",
+  projectId: "icard-8deae",
+  storageBucket: "icard-8deae.appspot.com",
+  messagingSenderId: "725920756226",
+  appId: "1:725920756226:web:d2c2990466227aa8326d1b"
 };
 if (getApps().length === 0) {
   initializeApp(firebaseConfig);
